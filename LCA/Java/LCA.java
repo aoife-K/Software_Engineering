@@ -14,4 +14,21 @@ class Node {
 
 public class LCA
 {
+
+    Node root;
+    private List<Integer> path1 = new ArrayList<>();
+    private List<Integer> path2 = new ArrayList<>();
+ 
+    int findLCA(int n1, int n2) {
+    }
+ 
+    private int findLCAInternal(Node root, int n1, int n2) {
+    }
+     
+    private boolean findPath(Node root, int n, List<Integer> path)
+    {
+    }
+    public static void main(String[] args)
+    {
+    }
 }
