@@ -23,4 +23,14 @@ class TestLowestCommonAncestor:
         assert LCA.findLCA(root, 2, 4) is 2
   
     def testLongerTree(self):
-        
+        root = Node(3)
+        root.left = Node(5)
+        root.right = Node(1)
+        root.left.left = Node(6)
+        root.left.right = Node(2)
+        root.right.left = Node(0)
+        root.right.right = Node(8)
+        root.left.right.left = Node(7)
+        root.left.right.right = Node(4)
+
+        assert LCA.findLCA(root, 5, 4) is 5
