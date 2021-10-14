@@ -67,8 +67,8 @@ public class LCA
  
         return false;
     }
-    // public static void main(String[] args)
-    // {
+    public static void main(String[] args)
+    {
     //     LCA tree = new LCA();
     //     tree.root = new Node(1);
     //     tree.root.left = new Node(2);
@@ -82,5 +82,5 @@ public class LCA
     //     System.out.println("LCA(4, 6): " + tree.findLCA(4,6));
     //     System.out.println("LCA(3, 4): " + tree.findLCA(3,4));
     //     System.out.println("LCA(2, 4): " + tree.findLCA(2,4));
-    // }
+     }
 }
