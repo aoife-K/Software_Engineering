@@ -17,9 +17,10 @@ class TestLowestCommonAncestor:
         root.right.left = Node(6)
         root.right.right = Node(7)
 
-        lca = LCA.findLCA(root, 4, 5)
-
-        assert lca.value is 2
+        assert LCA.findLCA(root, 4, 5) is 2
+        assert LCA.findLCA(root, 4, 6) is 1
+        assert LCA.findLCA(root, 3, 4) is 1
+        assert LCA.findLCA(root, 2, 4) is 2
   
     def testLongerTree(self):
         
