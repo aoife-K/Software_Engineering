@@ -7,6 +7,7 @@ public class DAGTest {
     public void testEmpty()
     {
        DAG graph = new DAG();
+       assertEquals(null, graph.findDAGLCA(null, null, null));
     }
 
     @Test
@@ -17,6 +18,18 @@ public class DAGTest {
 
     @Test
     public void testLongerDAG()
+    {
+        DAG graph = new DAG();
+    }
+
+    @Test
+    public void testOneNodeDAG()
+    {
+        DAG graph = new DAG();
+    }
+
+    @Test
+    public void testWrongDAG()
     {
         DAG graph = new DAG();
     }
